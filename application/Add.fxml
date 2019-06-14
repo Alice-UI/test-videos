@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AddController">
+   <children>
+      <AnchorPane layoutY="92.0" prefHeight="311.0" prefWidth="706.0" style="-fx-background-color: #FAFAFA;">
+         <children>
+            <Label layoutX="39.0" layoutY="41.0" prefHeight="80.0" prefWidth="375.0" text="Добавить видео:" textFill="#908787">
+               <font>
+                  <Font name="Gabriola" size="66.0" />
+               </font>
+            </Label>
+            <Button fx:id="addV" layoutX="490.0" layoutY="70.0" mnemonicParsing="false" onAction="#fileChooser" prefHeight="51.0" prefWidth="107.0" style="-fx-background-color: #fbce65;" text="Video" textFill="WHITE">
+               <font>
+                  <Font name="Gadugi" size="19.0" />
+               </font>
+            </Button>
+            <Label layoutX="39.0" layoutY="157.0" prefHeight="80.0" prefWidth="375.0" text="Добавить вопросы:" textFill="#908787">
+               <font>
+                  <Font name="Gabriola" size="56.0" />
+               </font>
+            </Label>
+            <Button fx:id="addT" layoutX="490.0" layoutY="171.0" mnemonicParsing="false" onAction="#fileChooser" prefHeight="51.0" prefWidth="107.0" style="-fx-background-color: #fbce65;" text="Test" textFill="WHITE">
+               <font>
+                  <Font name="Gadugi" size="19.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="269.0" layoutY="14.0" prefHeight="39.0" prefWidth="230.0" text="VideoTest" textFill="WHITE">
+         <font>
+            <Font name="Gabriola" size="66.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
